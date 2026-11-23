@@ -16,6 +16,8 @@ library(viridis)
 # + scale_color/fill_viridis_c/d()
 theme_set(theme_light())
 
+setwd("../R in assignmenr 1")
+
 # Startup ends here
 
 ## Comment codes ------
@@ -24,10 +26,10 @@ theme_set(theme_light())
 
 ## Reading in data -----
 
-df_trich_sp = read_csv("../data/trichinella_spiralis_te.csv")
+df_trich_sp = read.csv("../assigmen2-group7-aminemami-/data in assigment1/trichinella_spiralis_te.csv")
 df_trich_sp
 
-df_trich_pap = read_csv("../data/GCA_001447755.1.csv")
+df_trich_pap = read.csv("../assigmen2-group7-aminemami-/data in assigment1/GCA_001447755.1.csv")
 df_trich_pap
 
 ## Filtering the data -----
